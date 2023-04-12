@@ -1,0 +1,38 @@
+.skills__title {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    padding: 20px;
+    border: solid 3px;
+}
+
+.skills__box li{
+    display: flex;
+    justify-content: center;
+}
+
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__box img {
+    height: 40px;
+    width: 70px;
+}
+@media screen and (max-width:768px){
+    .skills__line {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100px;
+        width: 350px;
+        margin: auto;
+        align-content: center;
+    }
+
+    .skills__box img {
+        height: 40px;
+        width: 80px;
+    }
+}

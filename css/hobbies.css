@@ -1,0 +1,38 @@
+.hobbies__title {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    padding: 20px;
+    border: solid 3px;
+}
+
+.hobbies__box li {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobbies__box img {
+    height: 40px;
+    width: 80px;
+}
+@media screen and (max-width:768px){
+    .hobbies__line {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100px;
+        width: 350px;
+        margin: auto;
+        align-content: center;
+    }
+
+    .hobbies__box img {
+        height: 40px;
+        width: 80px;
+    }
+}

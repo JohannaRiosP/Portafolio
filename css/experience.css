@@ -1,0 +1,43 @@
+.experience__section__title {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    padding: 20px;
+    border: solid 3px;
+    box-sizing: content-box;
+}
+
+.experience__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience__info{
+    padding: 5% 0 5% 0;
+    margin-left: 10px;
+}
+
+.experience__img{
+    padding: 5% 0 5% 0;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.experience__boton--repo,
+.experience__boton--demo {
+    background-color: var(--color-boton-exp);
+    border-radius: 7px;
+    margin-top: 0.5rem;
+    max-width: 20rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    font-weight: var(--font-weigth-input);
+    text-align: center;
+}
+
+@media screen and (max-width:425px){
+
+    .experience__box{
+        display: block;
+    }
+}

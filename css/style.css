@@ -1,0 +1,37 @@
+.registro__concluido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    padding-top: 1rem;
+  }
+  
+  
+  .registro__concluido--titulo {
+    font-family: var(--font-family-logo);
+    font-size: var(--font-size-logo);
+    margin-bottom: 1rem;
+  }
+  
+  .registro__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+  .registro__card--title {
+    max-width: 20rem;
+  }
+  
+  @media (min-width: 800px) {
+    .registry-header__logo {
+      width: 5.75rem;
+      margin-bottom: 1rem;
+    }
+  
+    .registry-header__title {
+      margin-bottom: 2rem;
+    }
+  }

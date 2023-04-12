@@ -1,0 +1,37 @@
+.about {
+    display: inline;
+}
+
+.about__container {
+    max-width: 390px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.about__container p{
+    margin-right: 5%;
+}
+
+
+.title__network--list {
+    display: flex;
+    justify-content: end;
+}
+
+.title__network--list a img {
+    height: 40px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+@media screen and (max-width:768px){
+    .about__container {
+        display: block;
+    }
+}
+
+
+    

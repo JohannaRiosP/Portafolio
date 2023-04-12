@@ -1,0 +1,56 @@
+.principal {
+    display: block;
+    align-items: center;
+
+}
+
+.name__header {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    border: solid 3px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color: var(--color-de-link);
+    background: url(/assets/rosa-desk.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300%;
+    width: 100%;
+    padding: 10% 0 10% 0;
+    margin: 10% 0 10%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0 10%;
+    font-weight: 600;
+}
+
+.menu div{
+    padding: 1%; 
+}
+
+.menu__list__item{
+    width: auto;
+}
+
+.menu__list__item:hover {
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+@media screen and (max-width:425px){
+    .menu{
+        font-size: 0.75rem;
+    }
+
+    .name__header {
+        justify-content: center;
+        height: 120px;
+        margin: 0;
+        padding: 0;
+        font-size: 1.60rem;
+    }
+}

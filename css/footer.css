@@ -1,0 +1,12 @@
+.footer__rodapie {
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    color: #251470;
+    font-weight: 800;
+}
+
+.footer__rodapie-info {
+    display: inline-block;
+    margin-left: 1%;
+}

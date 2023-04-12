@@ -1,0 +1,37 @@
+:root {
+    --color-de-fondo: #e0afd6;
+    --color-de-link: #222121;
+    --color-boton: #0071ea;
+    --color-boton-exp: #f9f9f9;
+    --color-boton-font: #000;
+    --font-weigth-input: 600;
+    --font-size-input-label: 0.75rem;
+    --warning-color: rgb(116, 6, 6);
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-de-fondo);
+    font-family: 'Raleway';
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1;
+    max-width: 900px;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+@media screen and (max-width:425px){
+    body {
+        margin-left: 18%;
+    }
+}
+    

@@ -1,0 +1,17 @@
+
+.title__container {
+    display: inline-block;
+}
+
+.title__container h3 {
+    margin-bottom: 10%;
+}
+
+.title__picture {
+    display: flex;
+    max-width: 390px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-bottom: 1rem;
+}
